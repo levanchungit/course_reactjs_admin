@@ -25,7 +25,8 @@
     "eject": "react-scripts eject",
     "postinstall": "husky install",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "format": "prettier --write ."
   },
   "eslintConfig": {
     "extends": [
@@ -54,8 +55,8 @@
   },
   "lint-staged": {
     "*.ts": [
-      "npm run lint",
-      "npm run format",
+      "yarn run lint",
+      "yarn run format",
       "git add ."
     ]
   }
