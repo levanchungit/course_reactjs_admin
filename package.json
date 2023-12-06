@@ -55,6 +55,6 @@
   },
   "lint-staged": {
     "*": "prettier --write",
-    "*.ts": "eslint --fix"
+    "*.ts": "yarn lint && eslint --fix"
   }
 }
