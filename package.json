@@ -57,10 +57,5 @@
     "*.{ts,tsx}": [
       "yarn lint"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }
