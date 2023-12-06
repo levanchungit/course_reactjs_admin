@@ -26,7 +26,6 @@
     "react/react-in-jsx-scope": ["off"],
     "react/jsx-uses-react": ["off"],
     "react/jsx-props-no-spreading": ["warn"],
-    "react/no-unescaped-entities": ["off"],
-    "no-unused-vars": ["error", { "vars": "all" }] // thêm vào dòng này
+    "react/no-unescaped-entities": ["off"]
   }
 }

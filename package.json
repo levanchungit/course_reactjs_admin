@@ -56,5 +56,10 @@
   "lint-staged": {
     "*.ts": "eslint --fix && exit 1",
     "*.tsx": "yarn lint && eslint --fix && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
