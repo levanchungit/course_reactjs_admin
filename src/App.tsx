@@ -3,8 +3,6 @@ function App() {
 
   const b = "21312";
 
-  
-
   return <div className="App">hello</div>;
 }
 
