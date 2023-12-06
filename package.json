@@ -54,8 +54,14 @@
     "prettier": "^3.1.0"
   },
   "lint-staged": {
-    "*.ts": "eslint --fix && exit 1",
-    "*.tsx": "yarn lint && eslint --fix && exit 1"
+    "*.ts": [
+      "yarn lint",
+      "prettier --write"
+    ],
+    "*.tsx": [
+      "yarn lint",
+      "prettier --write"
+    ]
   },
   "husky": {
     "hooks": {
