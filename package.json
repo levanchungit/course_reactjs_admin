@@ -54,10 +54,7 @@
     "prettier": "^3.1.0"
   },
   "lint-staged": {
-    "*.ts": [
-      "yarn run lint",
-      "yarn run format",
-      "git add ."
-    ]
+    "*": "prettier --write",
+    "*.ts": "eslint --fix"
   }
 }
